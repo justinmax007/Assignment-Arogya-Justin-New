@@ -1,0 +1,620 @@
+/*=======================================
+  Default Theme
+--------------------------------
+font-family: 'Lato', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+
+-------------------------------
+colors: #FF5454
+
+=======================================*/
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #212226;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 600;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+
+
+
+/*==============================
+    Home
+===============================*/
+
+
+i.fas.fa-chevron-circle-left {
+  position: absolute;
+  color: black;
+  background-color: white;
+  font-size: 40px;
+  opacity: unset;
+  border-radius: 20px;
+  border: none;
+  left: 240%;
+  border-color: black;
+}
+
+i.fas.fa-chevron-circle-right {
+  position: absolute;
+  right: 240%;
+  color: black;
+  background-color: white;
+  font-size: 40px;
+  opacity: unset;
+  border-radius: 20px;
+  border: none;
+  border-color: black;
+}
+
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.own-center-div.text-center {
+  position: absolute;
+  left: 43%;
+  bottom: 47%;
+}
+.slider-heading {
+  font-size: 70px;
+  z-index: 99999;
+}
+
+button.own-center-btn {
+  color: white;
+  background: black;
+  width: 150px;
+  height: auto;
+  border-radius: 50px;
+  padding: 7px;
+  opacity: 0.6;
+  z-index: 99999;
+  transition: 1s;
+}
+
+button.own-center-btn:hover{
+  background:black;
+  color: #FF5454;
+  opacity: 0.9; 
+}
+
+#arrow-down {
+  color: #000;
+  font-size: 32px;
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  margin-left: -16px;
+  z-index: 1;
+  transition: 1s ease-in-out;
+}
+#arrow-down:hover,
+#arrow-down:focus {
+  color: #FF5454;
+}
+
+.anchor-down {
+  position: absolute;
+  left: 50%;
+  bottom: 0%;
+}
+
+/*==============================
+    About
+===============================*/
+
+.own-container-fluid{
+  padding: 80px 20px;
+}
+
+.own-container-fluid h2{
+  margin-bottom: 0.6rem;
+}
+
+
+/*==============================
+    Gallery
+===============================*/
+
+
+#home-gallery {
+  background: url("../img/feed_bg.jpg");
+ /* The image used */
+  background-color: #cccccc;
+ /* Used if the image is unavailable */
+  background-position: center;
+ /* Center the image */
+  background-repeat: no-repeat;
+ /* Do not repeat the image */
+  background-size: cover;
+ /* Resize the background image to cover the entire container */
+  padding: 90px 0px 10px 0px;
+}
+
+p.card-text {
+  color: #738D9C;
+}
+
+.card-block {
+  padding: 30px;
+  text-align: center;
+}
+
+.gal-row {
+  padding: 20px 0px;
+}
+
+.gal-header h1 {
+  color: #3D4F60;
+}
+
+.gal-header h3 {
+  color: white;
+  font-weight: 400;
+}
+
+
+
+/*==============================
+    footer
+===============================*/
+
+.footer {
+  width: 100%;
+  height: 70px;
+  line-height: 70px;
+  background-color: black;
+  color: white;
+}
+
+.fab {
+  padding: 0px 10px;
+}
+
+.fab:hover {
+  color: #FF5454;
+  cursor: pointer;
+}
+
+
+/*==============================
+    Navigation bar
+===============================*/
+
+nav.navbar.navbar-expand-sm.navbar-dark.bg-faded.sticky-top {
+  background-color: black!important;
+}
+
+a.nav-link:hover {
+  color: #FF5454 !important;
+}
+
+
+
+
+
+/*===========================
+      Media Queries
+============================*/
+
+
+/*--------------------------galaxy s5--------------------------------*/
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3) {
+
+  i.fas.fa-chevron-circle-left {
+    position: absolute;
+    color: black;
+    background-color: white;
+    font-size: 25px;
+    opacity: unset;
+    border-radius: 20px;
+    border: none;
+    left: 137%;
+    border-color: black;
+}
+
+  i.fas.fa-chevron-circle-right {
+    position: absolute;
+    right: 182%;
+    color: black;
+    background-color: white;
+    font-size: 25px;
+    opacity: unset;
+    border-radius: 20px;
+    border: none;
+    border-color: black;
+}
+
+.slider-heading {
+    font-size: 35px !important;
+    z-index: 99999;
+}
+
+button.own-center-btn {
+    color: white;
+    background: black;
+    width: 100px;
+    height: auto;
+    border-radius: 50px;
+    padding: 3px;
+    opacity: 0.6;
+    z-index: 99999;
+}
+
+.own-center-div.text-center {
+    position: absolute;
+    left: 33%;
+    bottom: 43%;
+}
+
+p {
+    font-family: "Lato", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+  div#nav-content {
+    height: 50vh;
+  }
+
+  a.nav-link {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  a.navbar-brand {
+    margin-right: 147px;
+  }
+
+  #home-gallery {
+    background: url(../img/feed_bg.jpg);
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 90px 10px 10px 10px;
+  }
+}
+
+.top-content {
+    position: relative;
+}
+
+/*--------------------------6/7/8--------------------------------*/
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2) {
+
+
+  .slider-heading {
+    font-size: 35px !important;
+    z-index: 99999;
+}
+
+button.own-center-btn {
+    color: white;
+    background: black;
+    width: 100px;
+    height: auto;
+    border-radius: 50px;
+    padding: 3px;
+    opacity: 0.6;
+    z-index: 99999;
+}
+
+.own-center-div.text-center {
+    position: absolute;
+    left: 37%;
+    bottom: 42%;
+}
+
+p {
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+i.fas.fa-chevron-circle-left {
+    position: absolute;
+    color: black;
+    background-color: white;
+    font-size: 25px;
+    opacity: unset;
+    border-radius: 20px;
+    border: none;
+    left: 182%;
+    border-color: black;
+}
+
+i.fas.fa-chevron-circle-right {
+    position: absolute;
+    right: 177%;
+    color: black;
+    background-color: white;
+    font-size: 25px;
+    opacity: unset;
+    border-radius: 20px;
+    border: none;
+    border-color: black;
+}
+
+  div#nav-content {
+    height: 50vh;
+  }
+
+  a.nav-link {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  a.navbar-brand {
+    margin-right: 147px;
+  }
+
+  #home-gallery {
+    background: url(../img/feed_bg.jpg);
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 90px 10px 10px 10px;
+  }
+}
+
+
+/*-------------------------------PLUS------------------------------------------*/
+
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) 
+  {
+
+ .own-center-div.text-center {
+    position: absolute;
+    left: 39%;
+    bottom: 43%;
+}
+
+i.fas.fa-chevron-circle-left {
+    position: absolute;
+    color: black;
+    background-color: white;
+    font-size: 25px;
+    opacity: unset;
+    border-radius: 20px;
+    border: none;
+    left: 206%;
+    border-color: black;
+}
+i.fas.fa-chevron-circle-right {
+    position: absolute;
+    right: 190%;
+    color: black;
+    background-color: white;
+    font-size: 25px;
+    opacity: unset;
+    border-radius: 20px;
+    border: none;
+    border-color: black;
+}
+.slider-heading {
+    font-size: 35px;
+    z-index: 99999;
+}
+
+button.own-center-btn {
+    color: white;
+    background: black;
+    width: 100px;
+    height: auto;
+    border-radius: 50px;
+    padding: 3px;
+    opacity: 0.6;
+    z-index: 99999;
+}
+
+
+p {
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+  
+
+  div#nav-content {
+    height: 50vh;
+  }
+
+  a.nav-link {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  a.navbar-brand {
+    margin-right: 165px;
+  }
+
+  #home-gallery {
+    background: url(../img/feed_bg.jpg);
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 90px 10px 10px 10px;
+  }
+}
+
+/*----------------------------X------------------------------*/
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) {
+ 
+
+ .slider-heading {
+    font-size: 35px;
+    z-index: 99999;
+}
+button.own-center-btn {
+    color: white;
+    background: black;
+    width: 100px;
+    height: auto;
+    border-radius: 50px;
+    padding: 3px;
+    opacity: 0.6;
+    z-index: 99999;
+}
+.own-center-div.text-center {
+    position: absolute;
+    left: 35%;
+    bottom: 42%;
+}
+
+i.fas.fa-chevron-circle-left {
+    position: absolute;
+    color: black;
+    background-color: white;
+    font-size: 25px;
+    opacity: unset;
+    border-radius: 20px;
+    border: none;
+    left: 180%;
+    border-color: black;
+}
+
+i.fas.fa-chevron-circle-right {
+    position: absolute;
+    right: 196%;
+    color: black;
+    background-color: white;
+    font-size: 25px;
+    opacity: unset;
+    border-radius: 20px;
+    border: none;
+    border-color: black;
+}
+
+  p {
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+  div#nav-content {
+    height: 50vh;
+  }
+
+  a.nav-link {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  a.navbar-brand {
+    margin-right: 165px;
+  }
+
+  #home-gallery {
+    background: url(../img/feed_bg.jpg);
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 90px 10px 10px 10px;
+  }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  p {
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.slider-heading {
+    font-size: 55px;
+    z-index: 99999;
+}
+
+.own-center-div.text-center {
+    position: absolute;
+    left: 39%;
+    bottom: 44%;
+}
+
+i.fas.fa-chevron-circle-left {
+    position: absolute;
+    color: black;
+    background-color: white;
+    font-size: 40px;
+    opacity: unset;
+    border-radius: 20px;
+    border: none;
+    left: 215%;
+    border-color: black;
+}
+
+i.fas.fa-chevron-circle-right {
+    position: absolute;
+    right: 224%;
+    color: black;
+    background-color: white;
+    font-size: 40px;
+    opacity: unset;
+    border-radius: 20px;
+    border: none;
+    border-color: black;
+}
+  
+}
+
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+  .own-center-div.text-center {
+    position: absolute;
+    left: 41%;
+    bottom: 44%;
+}
+
+p {
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+}
+
